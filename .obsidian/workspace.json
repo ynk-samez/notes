@@ -4,67 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "2c3ddab87156eb0a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "23c978acdd7c7eab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lattice Quantization.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Lattice Quantization"
-            }
-          },
-          {
-            "id": "ed6b8e4c284c4aa3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Investigation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Investigation"
-            }
-          },
-          {
-            "id": "1097f9a798c097d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lattice Quantization.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Lattice Quantization"
-            }
-          },
-          {
-            "id": "5571d6c2c9d3b31d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20260102195658.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260102195658"
-            }
-          }
-        ]
-      },
-      {
-        "id": "82018cc6add20891",
+        "id": "9fa8cc5035e05912",
         "type": "tabs",
         "children": [
           {
@@ -73,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lattice Quantization.md",
+                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Performance metric for computer"
+            }
+          }
+        ]
+      },
+      {
+        "id": "60f1645741315721",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce03d49765add435",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Lattice Quantization"
+              "title": "Performance metric for computer"
             }
           }
         ]
@@ -154,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Investigation.md",
+                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Investigationへのバックリンク"
+              "title": "Performance metric for computerへのバックリンク"
             }
           },
           {
@@ -238,20 +198,26 @@
       "canvas:新規キャンバスを作成": false,
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
-      "command-palette:コマンドパレットを開く": false
+      "command-palette:コマンドパレットを開く": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c3f60778d99488d",
+  "active": "ce03d49765add435",
   "lastOpenFiles": [
+    "Pasted image 20260102195658.png",
+    "Lattice Quantization.md",
+    "Patterson-and-Hennecy/Performance metric for computer.md",
+    "無題のファイル.md",
+    "Patterson-and-Hennecy",
+    "無題のファイル 1.md",
+    "Paterson-and-Hennecy",
     "Pasted image 20260103185717.png",
     "Pasted image 20260103185653.png",
     "Pasted image 20260103185246.png",
     "Simplex Method.md",
     "Pasted image 20260103164502.png",
     "Pasted image 20260103164413.png",
-    "Lattice Quantization.md",
     "Investigation.md",
-    "Pasted image 20260102195658.png",
     "Note for Codes.md",
     "Pasted image 20251230114616.png",
     "無題のファイル.base",
