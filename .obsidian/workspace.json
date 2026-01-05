@@ -1,0 +1,261 @@
+{
+  "main": {
+    "id": "3fc15b6009bdb690",
+    "type": "split",
+    "children": [
+      {
+        "id": "2c3ddab87156eb0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23c978acdd7c7eab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lattice Quantization.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lattice Quantization"
+            }
+          },
+          {
+            "id": "ed6b8e4c284c4aa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Investigation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Investigation"
+            }
+          },
+          {
+            "id": "1097f9a798c097d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lattice Quantization.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Lattice Quantization"
+            }
+          },
+          {
+            "id": "5571d6c2c9d3b31d",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20260102195658.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20260102195658"
+            }
+          }
+        ]
+      },
+      {
+        "id": "82018cc6add20891",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2c3f60778d99488d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lattice Quantization.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Lattice Quantization"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72a9855d1376d8fe",
+    "type": "split",
+    "children": [
+      {
+        "id": "008de81f4f15bd5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19056260a97fdb36",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "b7a082fc499f8417",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "f47fd9756f2b0ebf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "9bb65e4cb59d2317",
+    "type": "split",
+    "children": [
+      {
+        "id": "35ac943fb5932795",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f37acaeef35e97e1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Investigation.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Investigationへのバックリンク"
+            }
+          },
+          {
+            "id": "39fec00ba825cbd6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Investigation.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Investigationからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "86e4b1371090122b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "34000e8fcd52cda5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Investigation.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Investigationのアウトライン"
+            }
+          },
+          {
+            "id": "73d7f30c11d04ce3",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "Investigation.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false
+    }
+  },
+  "active": "2c3f60778d99488d",
+  "lastOpenFiles": [
+    "Pasted image 20260103185717.png",
+    "Pasted image 20260103185653.png",
+    "Pasted image 20260103185246.png",
+    "Simplex Method.md",
+    "Pasted image 20260103164502.png",
+    "Pasted image 20260103164413.png",
+    "Lattice Quantization.md",
+    "Investigation.md",
+    "Pasted image 20260102195658.png",
+    "Note for Codes.md",
+    "Pasted image 20251230114616.png",
+    "無題のファイル.base",
+    "Dynamic Programming  Completion Box.md",
+    "2025-12-29.md"
+  ]
+}
