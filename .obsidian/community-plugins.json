@@ -1,5 +1,7 @@
 [
   "obsidian-style-settings",
   "obsidian-plugin-toc",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-latex-suite",
+  "numerals"
 ]

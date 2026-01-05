@@ -17,9 +17,10 @@
   "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
   "blue-topaz-theme@@accent-em@@light": "#FF00DC",
   "blue-topaz-theme@@text-normal@@light": "#FFFFFF",
-  "blue-topaz-theme@@text-normal@@dark": "#FFFFFF",
+  "blue-topaz-theme@@text-normal@@dark": "#00C0F0",
   "blue-topaz-theme@@interactive-accent@@dark": "#FF5C00",
   "blue-topaz-theme@@mjx-math-color@@dark": "#FFFFFF",
   "blue-topaz-theme@@font-family-change-to-default": false,
-  "blue-topaz-theme@@accent-strong@@dark": "#00B7FF"
+  "blue-topaz-theme@@accent-strong@@dark": "#00B7FF",
+  "blue-topaz-theme@@mjx-inline-math-color@@dark": "#FF8600"
 }
