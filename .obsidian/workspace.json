@@ -13,12 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
+                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Control Unit Desgin"
+              "title": "Performance metric for computer"
+            }
+          }
+        ]
+      },
+      {
+        "id": "eabb9a8c849ad426",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fbac9035d1765c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Performance metric for computer"
             }
           }
         ]
@@ -34,7 +54,7 @@
               "type": "markdown",
               "state": {
                 "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -202,7 +222,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c3f60778d99488d",
+  "active": "85b7ef3981e9da99",
   "lastOpenFiles": [
     "Patterson-and-Hennecy/Performance metric for computer.md",
     "Patterson-and-Hennecy/Control Unit Desgin.md",

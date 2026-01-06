@@ -1,5 +1,2 @@
 [[Patterson and Hennecy]]
 
-```qrcode
-
-```
