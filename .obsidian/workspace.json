@@ -13,32 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
+                "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Performance metric for computer"
+              "title": "Control Unit Desgin"
             }
           }
         ]
       },
       {
-        "id": "60f1645741315721",
+        "id": "f90aa42341f10680",
         "type": "tabs",
         "children": [
           {
-            "id": "ce03d49765add435",
+            "id": "85b7ef3981e9da99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
+                "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Performance metric for computer"
+              "title": "Control Unit Desgin"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
+                "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Performance metric for computerへのバックリンク"
+              "title": "Control Unit Desginへのバックリンク"
             }
           },
           {
@@ -202,12 +202,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ce03d49765add435",
+  "active": "2c3f60778d99488d",
   "lastOpenFiles": [
+    "無題のファイル.md",
+    "Patterson-and-Hennecy/Control Unit Desgin.md",
+    "Patterson-and-Hennecy/Performance metric for computer.md",
     "Pasted image 20260102195658.png",
     "Lattice Quantization.md",
-    "Patterson-and-Hennecy/Performance metric for computer.md",
-    "無題のファイル.md",
     "Patterson-and-Hennecy",
     "無題のファイル 1.md",
     "Paterson-and-Hennecy",
