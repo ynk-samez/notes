@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
+                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +144,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Control Unit Desginへのバックリンク"
+              "title": "Performance metric for computerへのバックリンク"
             }
           },
           {
@@ -222,10 +222,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85b7ef3981e9da99",
+  "active": "4fbac9035d1765c8",
   "lastOpenFiles": [
-    "Patterson-and-Hennecy/Performance metric for computer.md",
     "Patterson-and-Hennecy/Control Unit Desgin.md",
+    "Patterson-and-Hennecy/Performance metric for computer.md",
     "無題のファイル.md",
     "Pasted image 20260102195658.png",
     "Lattice Quantization.md",
