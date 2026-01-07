@@ -52,6 +52,14 @@ add $s0,$a1,$t7
 - When the clock cycle is 4:
 	- analyse
 		- sub
-		- s4 register : 20 -> [10100]
-		- s7 register:  23 -> []
+		- s4 register(rd) : 15+4=20 -> [10100]
+		- s7 register(rs):  16+7=23 -> [10111]
+		- s2 register(rt): 16+2=18 -> [10001]
+			- field representation in binary goes to be
+				- 000000 10111 10001 10100 00000(shamt) 100010(funct)
+			- signal paths
+				- [000000]: goes to be input to the control unit
+				- [10111]: read register 1
+				- [10001]: read register 2
+				- [10100]:destination / goes to instruction
 
