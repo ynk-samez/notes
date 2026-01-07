@@ -4,10 +4,25 @@ architecture-beta
     %% Federated Learning (FL)
     %% =========================
 
-    group server(cloud)[Central Server]
-		service database(database)[Database] in server
-	
-	group client(database)[Clients]
-		service database(database2)[Database] in client
-
+    group api(cloud)[Central Server]
+		service db(database)[Database] in api
+		service server(server)[Server] in api
+		
+		db:L-->R:server
+		
+	group clients(server)[Clients]
+		group client1(server)[Client1] in clients
+			service db_client1(database)[Database] in client1
+			service server_client1(server)[Server] in client1
+		group client2(server)[Client2] in clients
+			service db_client2(database)[Database] in client2
+			service server_client2(server)[Server] in client2
+		group client3(server)[Client3] in clients
+			service db_client3(database)[Database] in client3
+			service server_client3(server)[Server] in client3
+			
+			db_client1:B-->T:db
+			db_client2:B-->T:db
+			db_client3:B-->T:db
+			
 ```
