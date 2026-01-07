@@ -35,4 +35,23 @@ funct: 100000 --> add
 add $s0,$a1,$t7 
 ```
 
+>[! Question]
+>The initial state is PC=00000100hex, and the contents of register number _n_ are _2n_ (Example: Register number of register $t1 is 9, so the content of register $t1 is "18"). The content of memory address _m_ is _m+1_.
+>Answer the values of the signal lines of the CPU when the following instructions are being executed.  
+>When ClockCycle is set to 1, the sub instruction is assumed to be executed. 
+>```MIPS
+>sub $s4, $s7, $s2  
+>add $s2, $s4, $t3  
+>addi $t2, $t2, 4hex  
+>lw $t3, 12($t2)  
+>slt $t6, $s6, $t3  
+>bne $t6, $zero, 1hex  
+>j 108hex  
+>sw $t3, 12($t2)
+>```
+- When the clock cycle is 4:
+	- analyse
+		- sub
+		- s4 register : 20 -> [10100]
+		- s7 register:  23 -> []
 
