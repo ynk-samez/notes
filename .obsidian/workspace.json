@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public-key Cryptography.md",
+                "file": "Federated Learning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Public-key Cryptography"
+              "title": "Federated Learning"
             }
           }
         ],
@@ -48,12 +48,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Public-key Cryptography.md",
+                "file": "Federated Learning.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Public-key Cryptography"
+              "title": "Federated Learning"
             }
           }
         ]
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Public-key Cryptography.md",
+                "file": "Federated Learning.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Public-key Cryptographyへのバックリンク"
+              "title": "Federated Learningへのバックリンク"
             }
           },
           {
@@ -220,7 +220,7 @@
   "active": "b8dcaf7c4e24cbc6",
   "lastOpenFiles": [
     "Patterson-and-Hennecy/Performance metric for computer.md",
-    "Public-key Cryptography.md",
+    "Federated Learning.md",
     "Patterson-and-Hennecy/Control Unit Desgin.md",
     "Pasted image 20260102195658.png",
     "Lattice Quantization.md",
