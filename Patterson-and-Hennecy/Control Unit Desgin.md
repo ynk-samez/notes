@@ -1,2 +1,0 @@
-[[Patterson and Hennecy]]
-

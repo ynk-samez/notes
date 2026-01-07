@@ -6,7 +6,6 @@
       {
         "id": "9fa8cc5035e05912",
         "type": "tabs",
-        "dimension": 75.64766839378238,
         "children": [
           {
             "id": "2c3f60778d99488d",
@@ -28,34 +27,33 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Federated Learning.md",
+                "file": "Patterson-and-Hennecy/Interpret instructions.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Federated Learning"
+              "title": "Interpret instructions"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "6aa5748f0eec280f",
+        "id": "5a54203f8f5656a7",
         "type": "tabs",
-        "dimension": 24.352331606217618,
         "children": [
           {
-            "id": "1262b9d690e1e6c4",
+            "id": "34e25a4137164f4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Federated Learning.md",
+                "file": "Patterson-and-Hennecy/Interpret instructions.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Federated Learning"
+              "title": "Interpret instructions"
             }
           }
         ]
@@ -131,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Federated Learning.md",
+                "file": "Patterson-and-Hennecy/Interpret instructions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Federated Learningへのバックリンク"
+              "title": "Interpret instructionsへのバックリンク"
             }
           },
           {
@@ -221,11 +219,15 @@
   },
   "active": "b8dcaf7c4e24cbc6",
   "lastOpenFiles": [
-    "Patterson-and-Hennecy/Performance metric for computer.md",
     "Federated Learning.md",
-    "Patterson-and-Hennecy/Control Unit Desgin.md",
-    "Pasted image 20260102195658.png",
+    "Pasted image 20260103164502.png",
+    "Pasted image 20251230114616.png",
+    "Note for Codes.md",
     "Lattice Quantization.md",
+    "Investigation.md",
+    "Patterson-and-Hennecy/Performance metric for computer.md",
+    "Patterson-and-Hennecy/Interpret instructions.md",
+    "Pasted image 20260102195658.png",
     "Patterson-and-Hennecy",
     "無題のファイル 1.md",
     "Paterson-and-Hennecy",
@@ -233,11 +235,7 @@
     "Pasted image 20260103185653.png",
     "Pasted image 20260103185246.png",
     "Simplex Method.md",
-    "Pasted image 20260103164502.png",
     "Pasted image 20260103164413.png",
-    "Investigation.md",
-    "Note for Codes.md",
-    "Pasted image 20251230114616.png",
     "無題のファイル.base",
     "Dynamic Programming  Completion Box.md",
     "2025-12-29.md"
