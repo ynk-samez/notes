@@ -20,45 +20,40 @@
               "icon": "lucide-file",
               "title": "Performance metric for computer"
             }
-          }
-        ]
-      },
-      {
-        "id": "eabb9a8c849ad426",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "4fbac9035d1765c8",
+            "id": "b8dcaf7c4e24cbc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
-                "mode": "preview",
-                "source": true
+                "file": "Public-key Cryptography.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Performance metric for computer"
+              "title": "Public-key Cryptography"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
-        "id": "f90aa42341f10680",
+        "id": "5d86a15d204e2cae",
         "type": "tabs",
         "children": [
           {
-            "id": "85b7ef3981e9da99",
+            "id": "91714bf529dd0cdc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Patterson-and-Hennecy/Control Unit Desgin.md",
-                "mode": "source",
-                "source": true
+                "file": "Public-key Cryptography.md",
+                "mode": "preview",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Control Unit Desgin"
+              "title": "Public-key Cryptography"
             }
           }
         ]
@@ -134,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Patterson-and-Hennecy/Performance metric for computer.md",
+                "file": "Public-key Cryptography.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Performance metric for computerへのバックリンク"
+              "title": "Public-key Cryptographyへのバックリンク"
             }
           },
           {
@@ -222,11 +217,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4fbac9035d1765c8",
+  "active": "b8dcaf7c4e24cbc6",
   "lastOpenFiles": [
-    "Patterson-and-Hennecy/Control Unit Desgin.md",
     "Patterson-and-Hennecy/Performance metric for computer.md",
-    "無題のファイル.md",
+    "Public-key Cryptography.md",
+    "Patterson-and-Hennecy/Control Unit Desgin.md",
     "Pasted image 20260102195658.png",
     "Lattice Quantization.md",
     "Patterson-and-Hennecy",
