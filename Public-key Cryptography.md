@@ -1,4 +1,5 @@
 ```mermaid
+%%{init:{'theme':'base','themeVariables':{'primaryColor':'#6A7FAB','primaryTextColor':'#FAFBF9','primaryBorderColor':'#6A7FAB','lineColor':'#6A7FABCC','textColor':'#6A7FABCC','fontSize':'20px'}}}%%
 architecture-beta
     %% =========================
     %% Federated Learning (FL)
@@ -20,9 +21,16 @@ architecture-beta
 		group client3(server)[Client3] in clients
 			service db_client3(database)[Database] in client3
 			service server_client3(server)[Server] in client3
+			db_client1:B-->T:server_client1
 			
-			db_client1:B-->T:db
-			db_client2:B-->T:db
-			db_client3:B-->T:db
+			db_client2:B-->T:server_client2
+			
+			db_client3:B-->T:server_client3
+			
+			server_client1:B-->T:db
+			
+			server_client2:B-->T:db
+			
+			server_client3:B-->T:db
 			
 ```
