@@ -34,6 +34,7 @@ funct: 100000 --> add
 ```MIPS
 add $s0,$a1,$t7 
 ```
+
 >[! Question]
 >The initial state is PC=00000100hex, and the contents of register number _n_ are _2n_ (Example: Register number of register $t1 is 9, so the content of register $t1 is "18"). The content of memory address _m_ is _m+1_.
 >Answer the values of the signal lines of the CPU when the following instructions are being executed.  
@@ -71,7 +72,7 @@ add $s0,$a1,$t7
 			- rd: 01011
 			- rs: 01010
 			- shamt: 12
-				- [000 ]
+				- [0000 0000 0000 1010]
 		- representation
 			- 100011 01010 01011 [0000 0000 0011 0000]
 		- addi $t2, $t2, 4hex
