@@ -61,5 +61,5 @@ add $s0,$a1,$t7
 				- [000000]: goes to be input to the control unit
 				- [10111]: read register 1
 				- [10001]: read register 2
-				- [10100]:destination / goes to instruction
+				- [10100]:destination / goes to be input to the instruction
 
