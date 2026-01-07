@@ -62,4 +62,8 @@ add $s0,$a1,$t7
 				- [10111]: read register 1
 				- [10001]: read register 2
 				- [10100]:destination / goes to be input to the instruction
-
+	- analyze:
+		- lw
+		- I type
+		- t3 register : 8+3=11 -> [01011]
+		- 12($t2): 12(8+2)=12(10)
