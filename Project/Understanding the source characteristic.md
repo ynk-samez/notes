@@ -26,4 +26,6 @@ w\leftarrow w-\eta\frac{\partial E}{\partial w}
 				 - *HB  :  Heavy Ball Method*
 				 - 
 				 - *NAG  :  Nesterov’s method of accelerated gradients*
-				- 
+		- to the best of my knowledge
+		- indispensability of 
+		- 
