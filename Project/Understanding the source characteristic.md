@@ -18,9 +18,12 @@
 		- *Stocastic gradient method*
 			- SGD (Stocastic gradient decent)
 				$$
-w\lefta
+w\leftarrow w-\eta\frac{\partial E}{\partial w}
 		 $$
-			 - *HB  :  Heavy Ball Method*
+			- **Improovement for SGD** 
+				-  *Momentum*
+					- 
+				 - *HB  :  Heavy Ball Method*
 				 - 
-			 - *NAG  :  Nesterov’s method of accelerated gradients*
-			
+				 - *NAG  :  Nesterov’s method of accelerated gradients*
+				- 
