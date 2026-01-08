@@ -8,8 +8,19 @@
 		- They proved the above statement.
 	- *Introduction*
 		- machine learning tasks are optimization problem 
-		- $\Phi: \mathbb{R}^d\rightarrow \mathbb{R}$$ is objective function which is usually called Loss function 
-		- 
-		- $$
-		\arg \underset{u\in \mathcal{R}^d}{\min}\Phi(u)
+		- $\Phi: \mathbb{R}^d\rightarrow \mathbb{R}$ *loss function*
+			- differentiable
+			- non-convex
+		- formalised as: 
+			- $$
+		\arg \underset{u\in \mathbb{R}^d}{\min}\Phi(u)
 		 $$
+		- *Stocastic gradient method*
+			- SGD (Stocastic gradient decent)
+				$$
+w\lefta
+		 $$
+			 - *HB  :  Heavy Ball Method*
+				 - 
+			 - *NAG  :  Nesterov’s method of accelerated gradients*
+			
