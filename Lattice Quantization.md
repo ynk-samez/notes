@@ -1,27 +1,18 @@
 
-## Jump links
+## Contents
 1. [preliminaries](#preliminaries)
 	1. [the decision of the scaling parameter for lattices](#the%20decision%20of%20the%20scaling%20parameter%20for%20lattices)
 	2. [works on lattice quantisation](#works%20on%20lattice%20quantisation)
 2. [Investigation](#Investigation)
 
-
-
 ## preliminaries 
-### the decision of the scaling parameter for lattices
+### Decision of the scaling parameter for lattices
 - MSE of lattice quantisation depends on the scaling parameter $\beta$ 
 $$
 \mathcal{C}= \frac{\beta}{M}\Lambda/\beta\Lambda
 $$
 - it's hard to find the optimal $\beta$, since there are some local minimums in particular $n\geq2$  ![[Pasted image 20260102195658.png]]
-		
 
-### works on lattice quantisation
-- [Even Better, Even Faster Quantized LLMs with QTIP](https://www.together.ai/blog/even-better-even-faster-quantized-llms-with-qtip)
-	- quantisation for making the learning process much faster?
-	- VQ is normally a high-cost technique
-	- overcoming this problem  using trellis coding for designing code book???
-	- quite  rhetorical too much 
 ## Investigation
 
 >[!tip] What is characteristic of NN's gradients?  
