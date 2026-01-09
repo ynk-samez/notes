@@ -28,4 +28,10 @@ w\leftarrow w-\eta\frac{\partial E}{\partial w}
 				 - *NAG  :  Nesterov’s method of accelerated gradients*
 		- to the best of my knowledge
 		- indispensability of 
-		- 
+
+
+1. Quantize:
+	1. 2nd Differential
+	2. continuos acceralation
+	3. 
+2. 
