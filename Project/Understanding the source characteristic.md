@@ -37,6 +37,6 @@ w\leftarrow w-\eta\frac{\partial E}{\partial w}
 
 ![[Pasted image 20260114141852.png]]
 A. 3. b 
-B. 4. a
+B. 4. a (d)
 C. 1. c
 D. 2. d
