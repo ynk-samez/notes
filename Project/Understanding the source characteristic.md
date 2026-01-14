@@ -34,4 +34,9 @@ w\leftarrow w-\eta\frac{\partial E}{\partial w}
 	1. 2nd Differential
 	2. continuos acceralation
 	3. 
-2. 
+
+![[Pasted image 20260114141852.png]]
+A. 3. b 
+B. 4. a
+C. 1. c
+D. 2. d
