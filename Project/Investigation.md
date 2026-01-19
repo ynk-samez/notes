@@ -1,43 +1,6 @@
-## Classical Methods
-- dot-product coding 
-	- Parameters
+## Sour
 
-		- Gradient of NN: g_ ∈R^D
-
-		- Random Vector: r_ ∈R^D
-
-	- Steps
-
-		- Shared : r
-
-		- Send : c=g^T r∈R
-
-		- Estimate : g from c and r
-
-- Pros/Cons
-
-lAdvantage: compression rate ↑( R^D to R^1)
-
-lDisadvantage: accurecy↓, hard to estimate
-
-lAn improvement for dot-product coding
-
-lStep
-
-lShared:{r_i∈R^D |r_1,r_2,⋯r_n}
-
-lSend:  c_1=g^T r_1, c_2=g^T r_2, ⋯c_n=g^T r_n
-
-lEstimate: g from {c_1,c_2,⋯c_n} and {r_1,r_2,⋯r_n}
-
-lPros/Cons
-
-lAdvantage: Accuracy↑
-
-lDisadvantage: Compression rate ↓
-
-
-### Adam (*Ada*ptive *m*omentum )
+### Adam (*Ada*ptive *m*omentum optimizor)
 
 ![[Pasted image 20251230114616.png]]
 ## Concept
