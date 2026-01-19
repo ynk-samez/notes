@@ -1,4 +1,7 @@
-## Sour
+## Characteristics of the sources
+>[! Main Question]
+>1. Do the gradient vectors of a single NN obey I.I.D gaussian source?
+>2. If don't,  how will it be descrived?  what type of assumption will be appropriate for the distribution of the vectors?.
 
 ### Adam (*Ada*ptive *m*omentum optimizor)
 
