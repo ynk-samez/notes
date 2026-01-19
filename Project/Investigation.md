@@ -37,7 +37,7 @@ lAdvantage: Accuracy↑
 lDisadvantage: Compression rate ↓
 
 
-### Adam(Adaptive )
+### Adam (*Ada*ptive *m*omentum )
 
 ![[Pasted image 20251230114616.png]]
 ## Concept
