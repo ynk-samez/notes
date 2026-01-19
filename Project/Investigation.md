@@ -63,3 +63,47 @@ lDisadvantage: Compression rate ↓
 sian initialization for theoretical convenience, modern deep learning models often employ more
 
 structured initialization schemes
+
+```mermaid
+graph TD;
+    %% Node Definitions
+    Start((Start Training Step))
+    Grad[Compute Local Gradient: g]
+    Pred[Generate Prediction: g_pred = ||g|| * m / ||m||]
+    Diff[Extract High-Frequency Residual: δ = g - g_pred]
+    
+    %% Decision Logic (Annulus/Nested Strategy)
+    Judge{Check Residual Norm: ||δ||}
+    HighRes[Mode: High-Resolution Lattice]
+    LowRes[Mode: Low-Resolution Lattice]
+    
+    %% Quantization Process
+    Quant[Quantize δ into Lattice Index: I]
+    Trans[Transmit: Index I + Norm ||g|| + Mode Flag]
+    
+    %% Server Side
+    Server[Server Receives Packet]
+    Dequant[De-quantize I to retrieve δ_hat]
+    Recover[Recover Gradient: g_hat = g_pred + δ_hat]
+    Update[Update Global Model & Momentum m]
+    Sync((Sync Next Step))
+
+    %% Connections
+    Start --> Grad
+    Grad --> Pred
+    Grad --> Diff
+    Pred --> Diff
+    Diff --> Judge
+    
+    Judge -- "||δ|| < R_min (Convergence) OR ||δ|| > R_max (Abnormal)" --> HighRes
+    Judge -- "R_min < ||δ|| < R_max (Steady State)" --> LowRes
+    
+    HighRes --> Quant
+    LowRes --> Quant
+    Quant --> Trans
+    Trans --> Server
+    Server --> Dequant
+    Dequant --> Recover
+    Recover --> Update
+    Update --> Sync
+```
