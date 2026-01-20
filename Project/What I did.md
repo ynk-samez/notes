@@ -1,0 +1,4 @@
+- quantize
+	- $\vec{d} = \vec{g}-\frac{\|\vec{g}\|}{\|\vec{m}\|}\vec{m}$
+- pros/cons
+	- 
