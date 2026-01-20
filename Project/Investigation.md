@@ -31,6 +31,7 @@ sian initialization for theoretical convenience, modern deep learning models oft
 structured initialization schemes
 
 ```mermaid
+%%{init:{'theme':'default'}}%%
 graph TD;
     %% Node Definitions
     Start((Start Training Step))
