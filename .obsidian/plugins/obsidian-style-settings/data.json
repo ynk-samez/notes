@@ -17,10 +17,13 @@
   "blue-topaz-theme@@layout-style-options": "layout-style-options-default",
   "blue-topaz-theme@@accent-em@@light": "#FF00DC",
   "blue-topaz-theme@@text-normal@@light": "#FFFFFF",
-  "blue-topaz-theme@@text-normal@@dark": "#00C0F0",
-  "blue-topaz-theme@@interactive-accent@@dark": "#FF5C00",
+  "blue-topaz-theme@@text-normal@@dark": "#00B9E8",
+  "blue-topaz-theme@@interactive-accent@@dark": "#FF2800",
   "blue-topaz-theme@@mjx-math-color@@dark": "#FFFFFF",
   "blue-topaz-theme@@font-family-change-to-default": false,
   "blue-topaz-theme@@accent-strong@@dark": "#00B7FF",
-  "blue-topaz-theme@@mjx-inline-math-color@@dark": "#FF8600"
+  "blue-topaz-theme@@mjx-inline-math-color@@dark": "#FF4700",
+  "blue-topaz-theme@@background-primary-alt-bg-4-bt@@dark": "#54545400",
+  "blue-topaz-theme@@background-primary-bg-4-bt@@dark": "#0000000A",
+  "blue-topaz-theme@@divider-color@@dark": "#00000000"
 }
