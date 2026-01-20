@@ -11,6 +11,18 @@
             "id": "b8dcaf7c4e24cbc6",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Papers/1906.04285v2.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "1906.04285v2"
+            }
+          },
+          {
+            "id": "1fb6130a73abc231",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Project/Understanding the source characteristic.md",
@@ -20,25 +32,9 @@
               "icon": "lucide-file",
               "title": "Understanding the source characteristic"
             }
-          },
-          {
-            "id": "1fb6130a73abc231",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "無題のファイル.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "無題のファイル"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,11 +192,13 @@
       "daily-notes:今日のデイリーノートを開く": false,
       "templates:テンプレートを挿入": false,
       "command-palette:コマンドパレットを開く": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "callout-manager:Insert Callout": false
     }
   },
-  "active": "b8dcaf7c4e24cbc6",
+  "active": "1fb6130a73abc231",
   "lastOpenFiles": [
+    "無題のファイル.canvas",
     "Papers/1906.04285v2.pdf",
     "Project/Understanding the source characteristic.md",
     "Project/Investigation.md",
@@ -213,7 +211,6 @@
     "Papers/無題のファイル.md",
     "Pasted image 20260107215949.png",
     "Papers",
-    "無題のファイル.canvas",
     "Pasted image 20260103185246.png",
     "Pasted image 20260103164413.png",
     "Pasted image 20251230114616.png",
