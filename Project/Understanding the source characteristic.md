@@ -11,9 +11,10 @@ They sit between gradients (computed by backpropagation) and parameter updates, 
 $$
 		 - $\theta$ : parameter such as weights, biases
 		 - $L$: Loss function, normally this is non-convex
-	 - Gradient decent based approach today is the de facto standard of NN's optimizer
-	 - Gradient descent plays a prominent conceptual role in many algorithms, following from the observation that the equation
+	 - Gradient decent(GD) based approach today is the de facto standard of NN's optimizer
+	 - In GD, the direction in which the parameters should be update is given as the gradient of the loss function.
 	 - $$
-	 \frac{d\theta}{dt}-\nabla L(\theta)
+	 \frac{d\theta}{dt}=-\nabla L(\theta)
 	  $$
-	  - that is, the gradient of loss land
+	  - In mini-batch 
+	  - 
