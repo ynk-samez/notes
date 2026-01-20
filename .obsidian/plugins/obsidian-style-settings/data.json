@@ -26,5 +26,6 @@
   "blue-topaz-theme@@background-primary-alt-bg-4-bt@@dark": "#54545400",
   "blue-topaz-theme@@background-primary-bg-4-bt@@dark": "#0000000A",
   "blue-topaz-theme@@divider-color@@dark": "#00000000",
-  "blue-topaz-theme@@search-bar-style-option": "default-search-bar"
+  "blue-topaz-theme@@search-bar-style-option": "default-search-bar",
+  "blue-topaz-theme@@accent-em@@dark": "#FF5C00"
 }
