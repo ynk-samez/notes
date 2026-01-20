@@ -1,6 +1,4 @@
 #Research
-1. [Optimizers](#Optimizers)
-	1. [SGD ( Stocastic Gradient Descent)](#SGD%20(%20Stocastic%20Gradient%20Descent))
 
 ## Optimizers
 >[! Hint]
@@ -8,7 +6,7 @@
 They sit between gradients (computed by backpropagation) and parameter updates, deciding the direction, step size, and sometimes the geometry of the update. (wiki)
 >![[https___ruder.io_content_images_2016_09_saddle_point_evaluation_optimizers.avif]]
 
-
+## Theoretic
 ### SGD ( Stocastic Gradient Descent)
 - The most primal things among all optimisers for NN
  - This is given as 
@@ -37,11 +35,61 @@ $$
 		 - $$
 	 \frac{d\theta}{dt}=-\nabla L(\theta)
 	  $$
-	  - $$\theta_t-\theta_{t-1}=-\nabla L(\theta)$$
-	  - $$\theta_t=\theta_{t-1}-\nabla L(\theta)$$
+		  - $$\theta_t-\theta_{t-1}=-\nabla L(\theta)$$
+		  - $$\theta_t=\theta_{t-1}-\nabla L(\theta)$$
 	  
-	- the input-data is given randomly: shuffled
-	   - ![[Pasted image 20260120221520.png]]
-	   ### Momentum-SGD
-	
-	   ### Adam (Adaptive )
+		- the input-data is given randomly: shuffled
+		   - ![[Pasted image 20260120221520.png]]
+##  Practical
+### Momentum-SGD
+	$$\begin{align}
+v_t &= \mu v_{t-1} - \eta g_t \\
+\theta_{t+1} &= \theta_t + v_t
+\end{align}
+$$
+### Nesterov Accelerated Gradient (NAG)
+$$
+\begin{align}
+v_t &= \mu v_{t-1} - \eta \nabla L(\theta_t + \mu v_{t-1}) \\
+\theta_{t+1} &= \theta_t + v_t
+\end{align}
+$$
+### RMSprop
+$$
+\begin{align}
+E[g^2]_t &= \rho E[g^2]_{t-1} + (1-\rho) g_t^2 \\
+\theta_{t+1} &= \theta_t
+- \eta \frac{g_t}{\sqrt{E[g^2]_t} + \epsilon}
+\end{align}
+$$
+### AdaGrad
+$$
+\begin{align}
+G_t &= G_{t-1} + g_t \odot g_t \\
+\theta_{t+1} &= \theta_t - \eta \frac{g_t}{\sqrt{G_t} + \epsilon}
+\end{align}
+$$
+### AdaDelta
+$$
+\begin{align}
+E[g^2]_t &= \rho E[g^2]_{t-1} + (1-\rho) g_t^2 \\
+\Delta \theta_t &= - \frac{\sqrt{E[\Delta \theta^2]_{t-1} + \epsilon}}
+{\sqrt{E[g^2]_t + \epsilon}} g_t \\
+E[\Delta \theta^2]_t &= \rho E[\Delta \theta^2]_{t-1}
++ (1-\rho)(\Delta \theta_t)^2 \\
+\theta_{t+1} &= \theta_t + \Delta \theta_t
+\end{align}
+$$
+### Adam
+- the most adapted and used optimizer today.
+- 90
+$$
+\begin{align}
+m_t &= \beta_1 m_{t-1} + (1-\beta_1) g_t \\
+v_t &= \beta_2 v_{t-1} + (1-\beta_2) g_t^2 \\
+\hat{m}_t &= \frac{m_t}{1-\beta_1^t} \\
+\hat{v}_t &= \frac{v_t}{1-\beta_2^t} \\
+\theta_{t+1} &= \theta_t - \eta
+\frac{\hat{m}_t}{\sqrt{\hat{v}_t} + \epsilon}
+\end{align}
+$$
