@@ -1,0 +1,26 @@
+{
+  "callouts": {
+    "custom": [],
+    "settings": {
+      "abstract": [
+        {
+          "changes": {
+            "color": "0, 240, 236"
+          }
+        }
+      ],
+      "hint": [
+        {
+          "changes": {
+            "color": "0, 251, 255"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

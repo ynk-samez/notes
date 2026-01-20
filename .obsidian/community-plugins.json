@@ -3,5 +3,6 @@
   "obsidian-plugin-toc",
   "obsidian-git",
   "obsidian-latex-suite",
-  "pseudocode-in-obs"
+  "pseudocode-in-obs",
+  "callout-manager"
 ]
