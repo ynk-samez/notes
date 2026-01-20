@@ -42,12 +42,20 @@ $$
 		   - ![[Pasted image 20260120221520.png]]
 ##  Practical
 ### Momentum-SGD
+-  Accumulates past gradients as a velocity vector.
+- Introduces inertia into parameter updates.
+- Reduces oscillations in directions of high curvature.
+- Accelerates convergence along consistent descent directions.
 	$$\begin{align}
 v_t &= \mu v_{t-1} - \eta g_t \\
 \theta_{t+1} &= \theta_t + v_t
 \end{align}
 $$
 ### Nesterov Accelerated Gradient (NAG)
+ - Computes the gradient at a look-ahead position.
+- Anticipates the future parameter location before updating.
+- Provides more accurate corrective updates than classical momentum.
+- Often yields better convergence guarantees.
 $$
 \begin{align}
 v_t &= \mu v_{t-1} - \eta \nabla L(\theta_t + \mu v_{t-1}) \\
@@ -55,6 +63,10 @@ v_t &= \mu v_{t-1} - \eta \nabla L(\theta_t + \mu v_{t-1}) \\
 \end{align}
 $$
 ### RMSprop
+-  Normalizes gradients using an exponential moving average of squared gradients
+- Prevents learning rates from shrinking monotonically.
+- Handles non-stationary and noisy objectives effectively.
+- Serves as a foundation for Adam’s second-moment estimation.
 $$
 \begin{align}
 E[g^2]_t &= \rho E[g^2]_{t-1} + (1-\rho) g_t^2 \\
@@ -63,6 +75,10 @@ E[g^2]_t &= \rho E[g^2]_{t-1} + (1-\rho) g_t^2 \\
 \end{align}
 $$
 ### AdaGrad
+- Adapts the learning rate for each parameter individually.
+- Scales updates inversely proportional to accumulated squared gradients.
+- Performs well for sparse features.
+- Suffers from overly aggressive learning rate decay over time.
 $$
 \begin{align}
 G_t &= G_{t-1} + g_t \odot g_t \\
@@ -70,6 +86,10 @@ G_t &= G_{t-1} + g_t \odot g_t \\
 \end{align}
 $$
 ### AdaDelta
+- Replaces cumulative gradient sums with exponential moving averages.
+- Eliminates the need for a manually chosen global learning rate.
+- Maintains unit consistency between updates and parameters.
+- More robust than AdaGrad for long training runs.
 $$
 \begin{align}
 E[g^2]_t &= \rho E[g^2]_{t-1} + (1-\rho) g_t^2 \\
@@ -81,8 +101,10 @@ E[\Delta \theta^2]_t &= \rho E[\Delta \theta^2]_{t-1}
 \end{align}
 $$
 ### Adam
-- the most adapted and used optimizer today.
-- 90
+- Combines momentum with adaptive per-parameter learning rates.
+- Uses bias-corrected first and second moment estimates.
+- Converges quickly with minimal hyperparameter tuning.
+- Widely used as a default optimizer in deep learning(90%?).
 $$
 \begin{align}
 m_t &= \beta_1 m_{t-1} + (1-\beta_1) g_t \\
