@@ -34,6 +34,18 @@
             }
           },
           {
+            "id": "ebfcb79ab08e9aa7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
+          },
+          {
             "id": "c59546749b5be2fe",
             "type": "leaf",
             "state": {
@@ -58,7 +70,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -220,7 +232,7 @@
       "callout-manager:Insert Callout": false
     }
   },
-  "active": "1fb6130a73abc231",
+  "active": "ebfcb79ab08e9aa7",
   "lastOpenFiles": [
     "Project/What I did.md",
     "Project/Neural Networks and Optimizers.md",
